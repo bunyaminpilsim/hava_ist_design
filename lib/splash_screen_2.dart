@@ -29,7 +29,7 @@ class _SplashScreen2State extends State<SplashScreen2> {
           child: Column(
             children: [
               SizedBox(
-                height: 15,
+                height: 50,
               ),
               Image(
                 image: AssetImage("assets/splash2.png"),
@@ -42,6 +42,7 @@ class _SplashScreen2State extends State<SplashScreen2> {
               Image(
                 image: AssetImage("assets/splash.png"),
                 fit: BoxFit.contain,
+                height: 230,
               ),
             ],
           ),

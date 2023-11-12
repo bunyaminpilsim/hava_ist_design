@@ -30,6 +30,7 @@ class _SplashScreen1State extends State<SplashScreen1> {
             image: AssetImage("assets/main_splash.png"),
             fit: BoxFit.contain,
             width: 200,
+            height: 40,
           ),
         ));
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hava_ist2/config/app_colors.dart';
+import 'package:hava_ist2/sign_in_page.dart';
 import 'package:hava_ist2/splash_screen_1.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
         useMaterial3: true,
       ),
-      home: SplashScreen1(),
+      home: SignInPage(),
     );
   }
 }
