@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hava_ist2/config/app_colors.dart';
 import 'package:hava_ist2/sign_in_page.dart';
-import 'package:hava_ist2/splash_screen_1.dart';
 
 void main() {
   runApp(const MyApp());
